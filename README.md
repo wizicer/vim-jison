@@ -1,32 +1,16 @@
-Vim syntax highlighting extras
+Vim syntax highlighting for jison
 ===============================================================================
 
-A collection of syntax definitions not yet shipped with stock vim.
+A simple syntax file for [jison], fork from [vim-syntax-extra]
 
-Bison, Flex
--------------------------------------------------------------------------------
-**Author:** Panayiotis Karabassis | [Source](https://groups.google.com/d/msg/vim_use/-cHCX2MkpOg/bPoDIRyEqqIJ)
+## Installation
 
-[Bison - GNU parser generator](http://www.gnu.org/software/bison/)
+If you use [Pathogen](and you should), do this:
 
-[flex: The Fast Lexical Analyzer](http://flex.sourceforge.net/)
-
-Enhanced C definitions 
--------------------------------------------------------------------------------
-**Author:** Mikhail Wolfson, Helmut Schellong | [Source](http://www.vim.org/scripts/script.php?script_id=3064)
-
-Improved C syntax groups for identifies operators, delimiters, user-defined 
-functions, function calls, and a wealth of standard ANSI C function names. 
-
-<table>
-<tr>
-    <td>Vim default</td><td>Enhanced</td>
-</tr>
-<tr>
-    <td colspan="2"><img src="https://raw.github.com/justinmk/vim-syntax-extra/fancy/enhanced_c_before_after.png"/></td>
-</tr>
-</table>
+    $ cd ~/.vim/bundle
+    $ git clone https://github.com/wizicer/vim-jison.git
 
 
-
-
+[jison]: http://zaach.github.io/jison/
+[vim-syntax-extra]: https://github.com/justinmk/vim-syntax-extra
+[Pathogen]: http://www.vim.org/scripts/script.php?script_id=2332
